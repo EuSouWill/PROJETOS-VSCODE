@@ -1,17 +1,26 @@
 body{
+    background: #0375f6;
    
  }
- 
-#banner {
-    width: 100%;
+h1 {
+  
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: rgb(3, 3, 3);
 }
 
+
+#banner {
+    width: 100%;
+    height: 400px;
+
+    
+}
 .titulo-principal {
   padding-left: 20px;
 }
 
 .principal{
-    background: #3e8ce6;
+    background: #639cf0;
     padding: 30px;
 }
 
@@ -35,7 +44,7 @@ p{
      font-style: italic;
  }
  .beneficios {
-     background: #FFFFFF;
+     background: #77d0eb;
      padding: 20px;
 
  }

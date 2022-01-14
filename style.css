@@ -4,21 +4,34 @@ header{
 
 }
 
+
+}
 .caixa {
     width: 940px;
     position: relative;
     margin: 0 auto;
 
+}
+
+.img-logo {
+    width: 20%;
+}
+
+.img-logo-banner {
+    width: 20%;
+    
 
 }
 nav {
     position: absolute;
     top: 110px;
     right: 0;
+    nav-left: 0;
 }
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+    
     
 }
 
@@ -39,11 +52,16 @@ nav a:hover {
 }
 
 .produtos {
-    width: 940px;
+    width: 1280px;
     margin: 0 auto;
     padding: 50px 0;
 
 
+}
+
+.img-produtos {
+    width: 250px;
+    height: 250px;
 }
 
 .produtos li {
@@ -73,7 +91,9 @@ nav a:hover {
 .produtos li:active {
     border-color: rgb(119, 235, 52);
 
+
 }
+
 
 .produtos h2 {
     font-size: 30px;
@@ -103,14 +123,67 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+  
     padding: 40px 0;
+  background: #000000;
 
 
+}
+.img-logo2 {
+    width: 30%;
 }
 
 .copyright{
     color: #BBBBBB;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+    margin: 40px 0;
+}
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+
+}
+
+.enviar {
+
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+
 }
